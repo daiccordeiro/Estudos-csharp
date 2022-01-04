@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-PrimeiroProjeto", "1-Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-CriandoVariaveis", "2-CriandoVariaveis\002-CriandoVariaveis.csproj", "{48B6C918-1BC1-4706-BF12-02835CD7268C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CriandoVariaveisPontoFlutuante", "3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante.csproj", "{20605CD3-F199-45FE-B3B3-97E8DC84BA17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-CriandoVariaveisPontoFlutuante", "3-CriandoVariaveisPontoFlutuante\003-CriandoVariaveisPontoFlutuante.csproj", "{20605CD3-F199-45FE-B3B3-97E8DC84BA17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ConversoesEOutrosTiposNumericos", "4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos.csproj", "{AF0C0430-7803-431F-97E6-CD2C5BFDF515}"
 EndProject
