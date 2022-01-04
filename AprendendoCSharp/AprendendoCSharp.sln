@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006-AtribuicoesDeVariaveis"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007-Condicionais", "7-Condicionais\007-Condicionais.csproj", "{90FF8568-DEF3-40C5-8B1F-55DC91B4CCA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-Condicionais2", "8-Condicionais2\8-Condicionais2.csproj", "{886C8665-4C21-4032-9384-E4E81A411EA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008-Condicionais2", "8-Condicionais2\008-Condicionais2.csproj", "{886C8665-4C21-4032-9384-E4E81A411EA8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Escopo", "9-Escopo\9-Escopo.csproj", "{F62B680F-0976-45D1-9DEA-5503BBCE7D8B}"
 EndProject
