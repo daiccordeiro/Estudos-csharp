@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008-Condicionais2", "8-Cond
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009-Escopo", "9-Escopo\009-Escopo.csproj", "{F62B680F-0976-45D1-9DEA-5503BBCE7D8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-CalculaPoupanca", "10-CalculaPoupanca\10-CalculaPoupanca.csproj", "{DFE167B5-B993-4955-8802-CF85B7D36648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010-CalculaPoupanca", "10-CalculaPoupanca\010-CalculaPoupanca.csproj", "{DFE167B5-B993-4955-8802-CF85B7D36648}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011-CalculaPoupanca2", "11-CalculaPoupanca2\011-CalculaPoupanca2.csproj", "{A1B25B8D-23BA-4247-A9DB-0532734CDA54}"
 EndProject
