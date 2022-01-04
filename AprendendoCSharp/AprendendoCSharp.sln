@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1585
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-PrimeiroProjeto", "1-PrimeiroProjeto\001-PrimeiroProjeto.csproj", "{D2BBA9A7-34B8-4641-B01C-3637E9B38C0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-CriandoVariaveis", "2-CriandoVariaveis\2-CriandoVariaveis.csproj", "{48B6C918-1BC1-4706-BF12-02835CD7268C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-CriandoVariaveis", "2-CriandoVariaveis\002-CriandoVariaveis.csproj", "{48B6C918-1BC1-4706-BF12-02835CD7268C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CriandoVariaveisPontoFlutuante", "3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante.csproj", "{20605CD3-F199-45FE-B3B3-97E8DC84BA17}"
 EndProject
