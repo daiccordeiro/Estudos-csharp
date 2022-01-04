@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1585
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-CriandoVariaveisPontoFlutuante", "3-CriandoVariaveisPontoFlutuante\003-CriandoVariaveisPontoFlutuante.csproj", "{20605CD3-F199-45FE-B3B3-97E8DC84BA17}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-ConversoesEOutrosTiposNumericos", "4-ConversoesEOutrosTiposNumericos\004-ConversoesEOutrosTiposNumericos.csproj", "{AF0C0430-7803-431F-97E6-CD2C5BFDF515}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-CaracteresETextos", "5-CaracteresETextos\005-CaracteresETextos.csproj", "{9E24D718-F650-4A02-94F5-53A9BB70D767}"
@@ -29,16 +27,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-PrimeiroProjeto", "001-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-CriandoVariaveis", "002-CriandoVariaveis\002-CriandoVariaveis.csproj", "{90FB1C6E-0B03-4824-98B6-05F2C0BBE8FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-CriandoVariaveisPontoFlutuante", "003-CriandoVariaveisPontoFlutuante\003-CriandoVariaveisPontoFlutuante.csproj", "{D0ECCC83-7B31-43D8-90CA-D79D16C9681B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{20605CD3-F199-45FE-B3B3-97E8DC84BA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20605CD3-F199-45FE-B3B3-97E8DC84BA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20605CD3-F199-45FE-B3B3-97E8DC84BA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20605CD3-F199-45FE-B3B3-97E8DC84BA17}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF0C0430-7803-431F-97E6-CD2C5BFDF515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF0C0430-7803-431F-97E6-CD2C5BFDF515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF0C0430-7803-431F-97E6-CD2C5BFDF515}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +83,10 @@ Global
 		{90FB1C6E-0B03-4824-98B6-05F2C0BBE8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90FB1C6E-0B03-4824-98B6-05F2C0BBE8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90FB1C6E-0B03-4824-98B6-05F2C0BBE8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0ECCC83-7B31-43D8-90CA-D79D16C9681B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0ECCC83-7B31-43D8-90CA-D79D16C9681B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0ECCC83-7B31-43D8-90CA-D79D16C9681B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0ECCC83-7B31-43D8-90CA-D79D16C9681B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
