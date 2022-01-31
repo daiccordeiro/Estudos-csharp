@@ -6,23 +6,21 @@ using System.Threading.Tasks;
 
 namespace ByteBank2.Funcionarios
 {
-    //Diretor herda as propriedades de funcionario
-    public class Diretor : Funcionario
+    class Auxiliar : Funcionario
     {
-        public Diretor(string cpf) : base(5000,cpf)
+        public Auxiliar(string cpf) : base(2000, cpf)
         {
-            Console.WriteLine("Criando DIRETOR");
+
         }
 
         public override void AumentarSalario()
         {
-            Salario*=1.15;
+            Salario *= 1.1;
         }
 
-        //override sobrepõe a implementação da classe base
         public override double GetBonificacao()
         {
-            return Salario * 0.5;
+            return Salario * 0.2;
         }
     }
 }
