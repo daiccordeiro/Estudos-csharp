@@ -27,7 +27,7 @@ namespace ByteBank2.Funcionarios
             Salario = salario;
             TotalDeFuncionarios++;
         }
-
+        
         public abstract void AumentarSalario();
 
         public abstract double GetBonificacao();
