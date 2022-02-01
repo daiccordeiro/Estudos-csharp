@@ -10,6 +10,8 @@ namespace ByteBank3
     // classe contacorrente define a estrutura que os objetvos dessa classe devem seguir!
 
     {
+        public static double TaxaOperacao { get; private set; }
+
         public Cliente Titular { get; set; }
 
         public static int TotalDeContasCriadas { get; private set; }
@@ -60,6 +62,8 @@ namespace ByteBank3
         {
             Agencia = agencia;
             Numero = numero;
+
+            TaxaOperacao = 30 / TotalDeContasCriadas;
 
             TotalDeContasCriadas++;
         }
