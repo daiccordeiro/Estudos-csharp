@@ -11,43 +11,23 @@ namespace ByteBank3
 
     {
         public static double TaxaOperacao { get; private set; }
+               
+        public static int TotalDeContasCriadas { get; private set; }
 
         public Cliente Titular { get; set; }
 
-        public static int TotalDeContasCriadas { get; private set; }
-
-        private int _agencia;
-        public int Agencia
-        {
-            get
-            {
-                return _agencia;
-            }
-            set
-            {
-                if (value <= 0)
-                {
-                    return;
-                }
-
-                _agencia = value;
-            }
-        }
-
-        public int Numero { get; set; }
-
-        //PRIVATE deixa 'saldo' como campo interno da Classe 'ContaCorrente'
-        private double _saldo = 100;
-
-        //Construção do Método com Get e Set
+        public int Numero { get; }
+        
+        public int Agencia { get; }
+                
+        private double _saldo = 100; //PRIVATE deixa 'saldo' como campo interno da Classe 'ContaCorrente'
+                
         public double Saldo
         {
-            //GET substituiu ObterSaldo
             get //get precisa ter um retorno
             {
                 return _saldo;
             }
-            //SET substituiu DefinirSaldo
             set //set é possível fazer alteração
             {
                 if (value < 0)
@@ -60,39 +40,39 @@ namespace ByteBank3
         
         public ContaCorrente(int agencia, int numero)
         {
+            if (agencia <= 0)
+            {
+                throw new ArgumentException("O argumento agencia deve ser maior que 0.", nameof(agencia));
+            }
+
+            if (numero <= 0)
+            {
+                throw new ArgumentException("O argumento numero deve ser maior que 0.", nameof(numero));
+            }
+
             Agencia = agencia;
             Numero = numero;
 
-            TaxaOperacao = 30 / TotalDeContasCriadas;
-
             TotalDeContasCriadas++;
+            TaxaOperacao = 30 / TotalDeContasCriadas;            
         }
-
-        //Quando retorna valor é comum chamar de FUNÇÃO.
-        //Função para realização de SAQUES das contas correntes. (Quando usa o 'bool' precisa ter um retorno, true ou false.
-        public bool Sacar(double valor)
+                
+        public void Sacar(double valor) //Função para realização de SAQUES das contas correntes        
         {
             if (_saldo < valor)
             {
-                return false;
+                throw new SaldoInsuficienteException("Saldo insuficiente para o saque no valor de " + valor);
             }
-
             _saldo -= valor;
-            return true;
         }
-
-        //Quando NÃO retorna valor é comum chamar de MÉTODO.
-        //Função para DEPOSITAR. (Para ações sem retorno, usa-se o 'void')
-        public void Depositar(double valor)
+                       
+        public void Depositar(double valor) //Função para DEPOSITAR. (Para ações sem retorno, usa-se o 'void')        
         {
             _saldo += valor;
         }
-
-        //Função para TRANSFERIR, onde retorna valor e precisa do parâmetro 'valor' e 'conta'
-        public bool Transferir(double valor, ContaCorrente contaDestino)
-        {
-            //Manter primeiro as condições que retornam false, 
-            //assim não há necessidade de usar o else no bool quando for true.
+                
+        public bool Transferir(double valor, ContaCorrente contaDestino) //Função para TRANSFERIR, onde retorna valor e precisa do parâmetro 'valor' e 'conta'
+        {            
             if (_saldo < valor)
             {
                 return false;
