@@ -87,6 +87,7 @@ namespace ByteBank3
             {
                 throw new ArgumentException("Valor inválido para a transferência.", nameof(valor));
             }
+            Sacar(valor);
 
             try
             {
@@ -95,7 +96,7 @@ namespace ByteBank3
             catch (SaldoInsuficienteException ex)
             {
                 ContadorTransferenciasNaoPermitidas++;
-                throw;
+                throw new OperacaoFinanceiraException("Operação não realizada.", ex);
             }
             contaDestino.Depositar(valor);
         }
