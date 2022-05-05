@@ -40,3 +40,6 @@ Estudos da linguagem `C#`, através da plataforma:
 ---
 
 ### Autor
+![@DAICCORDEIRO](https://github.com/daiccordeiro)  
+Please follow github and join us!
+Thanks to visiting me and good coding!
